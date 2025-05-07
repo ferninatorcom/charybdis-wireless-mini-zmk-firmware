@@ -37,9 +37,9 @@ layers:
   - .
   - {t: /, h: SLOW}
   - RIGHT SHIFT
-  - {t: ENTER, h: LEFT ALT}
+  - {t: ENTER, h: LEFT CONTROL}
   - {t: SPACE, h: LCMD}
-  - {t: ENTER, h: LCTRL}
+  - {t: ENTER, h: LEFT ALT}
   - {t: ENTER, h: SYMBOL}
   - {t: SPACE, h: NUM}
   NUM:
@@ -77,7 +77,7 @@ layers:
   - LEFT
   - DOWN ARROW
   - RIGHT
-  - ']'
+  - RIGHT ALT
   - {t: '[', h: RIGHT SHIFT}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
