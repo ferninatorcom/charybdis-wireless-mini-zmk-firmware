@@ -78,14 +78,14 @@ layers:
   - DOWN ARROW
   - RIGHT
   - END
-  - {t: '[', h: RIGHT SHIFT}
+  - RIGHT ALT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
   SYMBOL:
-  - '`'
+  - '|'
   - '!'
   - '@'
   - '#'
