@@ -59,7 +59,7 @@ layers:
   - ''
   - ''
   - ''
-  - BACK SPACE
+  - RGUI
   - PAGE UP
   - {t: ▽, type: trans}
   - LCMD
@@ -97,16 +97,16 @@ layers:
   - Sft+ 9
   - '-'
   - '='
+  - RIGHT ALT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - AGr+ '
-  - 'AGr+ #'
   - AGr+ [
   - AGr+ ]
+  - AGr+ '
+  - 'AGr+ #'
   - '['
   - ']'
   - {t: ▽, type: trans}
@@ -117,8 +117,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - AGr+ '
+  - 'AGr+ #'
   - ''''
   - \
   - {t: ▽, type: trans}
