@@ -60,24 +60,24 @@ layers:
   - ''
   - ''
   - BACK SPACE
-  - HOME
   - PAGE UP
+  - {t: ▽, type: trans}
   - LCMD
   - UP ARROW
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - .
+  - \
+  - RIGHT ALT
   - {t: ▽, type: trans}
   - ''
   - ''
   - ''
   - ''
-  - END
   - PAGE DOWN
+  - HOME
   - LEFT
   - DOWN ARROW
   - RIGHT
-  - RIGHT ALT
+  - END
   - {t: '[', h: RIGHT SHIFT}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
