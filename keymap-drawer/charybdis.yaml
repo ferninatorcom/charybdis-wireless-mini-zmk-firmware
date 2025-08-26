@@ -117,8 +117,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - AGr+ '
-  - 'AGr+ #'
+  - AGr+ [
+  - AGr+ ]
   - ''''
   - \
   - {t: ▽, type: trans}
@@ -301,17 +301,17 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: BASE, h: toggle}
   - '7'
   - '8'
   - '9'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
+  - {type: held}
+  - {type: held}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '4'
@@ -325,7 +325,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '0'
+  - {t: ▽, type: trans}
   - '1'
   - '2'
   - '3'
@@ -335,7 +335,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '0'
 combos:
 - p: [17, 18]
   k: CAPS WORD
@@ -358,5 +358,7 @@ combos:
   k: Ctl+Alt+ DELETE
 - p: [29, 30]
   k: CAPSLOCK
-- p: [23, 22, 21, 20]
+- p: [23, 22, 21]
   k: {t: ONLY_NUM, h: toggle}
+- p: [13, 14, 15, 16]
+  k: ONLY_NUM
