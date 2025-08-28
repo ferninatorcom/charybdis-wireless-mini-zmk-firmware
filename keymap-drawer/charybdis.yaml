@@ -43,7 +43,7 @@ layers:
   - {t: ENTER, h: SYMBOL}
   - {t: SPACE, h: NUM}
   NUM:
-  - ESCAPE
+  - \
   - '1'
   - '2'
   - '3'
