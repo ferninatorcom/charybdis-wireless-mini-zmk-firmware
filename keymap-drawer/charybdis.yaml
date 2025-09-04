@@ -68,7 +68,7 @@ layers:
   - \
   - RIGHT ALT
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '`'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -86,15 +86,15 @@ layers:
   - {type: held}
   SYMBOL:
   - '|'
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '`'
   - Sft+ `
-  - Sft+ 8
-  - Sft+ 9
   - '-'
   - '='
   - RIGHT ALT
@@ -103,14 +103,14 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - AGr+ [
-  - AGr+ ]
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - AGr+ '
   - 'AGr+ #'
   - '['
   - ']'
   - {t: ▽, type: trans}
-  - '`'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
