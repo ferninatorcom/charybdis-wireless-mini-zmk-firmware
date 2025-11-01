@@ -13,9 +13,9 @@
     conditional_layers {
         compatible = "zmk,conditional-layers";
 
-        Third_Layer {
-            if-layers = <1 2>;
-            then-layer = <3>;
+        Layer_3 {
+            if-layers = <2 3>;
+            then-layer = <4>;
         };
     };
 
@@ -92,7 +92,7 @@
         td_cursor: td_scroll_or_cursor {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
-            bindings = <&lt 6 ESC>, <&to 5>;
+            bindings = <&lt 7 ESC>, <&to 6>;
 
             // hold, tap, double_tap
         };
@@ -109,7 +109,7 @@
         td_layers: td_layer_swap {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
-            bindings = <&to 0>, <&to 1>, <&to 2>;
+            bindings = <&to 0>, <&to 2>, <&to 3>;
 
             // tap, double_tap, tripple_tap
         };
@@ -118,7 +118,7 @@
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <250>;
-            bindings = <&mkp RCLK>, <&mo 6>;
+            bindings = <&mkp RCLK>, <&mo 7>;
 
             // tap/hold, double_tap
         };
@@ -185,18 +185,18 @@
         };
 
         OnlyNumToggle {
-            bindings = <&tog 7>;
+            bindings = <&tog 1>;
             key-positions = <23 22 21>;
         };
 
         Cond_layer_num_only {
-            bindings = <&mo 7>;
+            bindings = <&mo 1>;
             key-positions = <14 15 16>;
         };
 
         OnlyNumToggle2 {
-            bindings = <&tog 7>;
-            key-positions = <21 20 19>;
+            bindings = <&tog 1>;
+            key-positions = <31 32 33>;
         };
     };
 
@@ -223,9 +223,18 @@
         BASE {
             bindings = <
 &kp ESC         &kp Q  &kp W  &kp E               &kp R           &kp T                     &kp Y        &kp U        &kp I      &kp O    &kp P            &kp BACKSPACE
-&kp TAB         &kp A  &kp S  &kp D               &kp F           &kp G                     &kp H        &kp J        &kp K      &kp L    &lt 6 SEMICOLON  &kp SQT
-&kp LEFT_SHIFT  &kp Z  &kp X  &kp C               &kp V           &kp B                     &kp N        &kp M        &kp COMMA  &kp DOT  &lt 5 FSLH       &kp RIGHT_SHIFT
-                              &hm LEFT_ALT ENTER  &hm LCMD SPACE  &hm LEFT_CONTROL ENTER    &lt 2 ENTER  &lt 1 SPACE
+&kp TAB         &kp A  &kp S  &kp D               &kp F           &kp G                     &kp H        &kp J        &kp K      &kp L    &lt 7 SEMICOLON  &kp SQT
+&kp LEFT_SHIFT  &kp Z  &kp X  &kp C               &kp V           &kp B                     &kp N        &kp M        &kp COMMA  &kp DOT  &lt 6 FSLH       &kp RIGHT_SHIFT
+                              &hm LEFT_ALT ENTER  &hm LCMD SPACE  &hm LEFT_CONTROL ENTER    &lt 3 ENTER  &lt 2 SPACE
+            >;
+        };
+
+        ONLY_NUM {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &to 0   &kp N7        &kp N8        &kp N9        &trans      &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &trans      &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD  &trans
+                        &trans  &trans  &trans    &trans  &lt 2 N0
             >;
         };
 
@@ -280,15 +289,6 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp LEFT_SHIFT  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp LEFT_SHIFT  &trans  &trans  &trans  &trans
                         &trans  &trans  &trans    &trans  &trans
-            >;
-        };
-
-        ONLY_NUM {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &to 0   &kp N7        &kp N8        &kp N9        &trans      &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &trans      &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD  &trans
-                        &trans  &trans  &trans    &trans  &lt 1 N0
             >;
         };
     };
