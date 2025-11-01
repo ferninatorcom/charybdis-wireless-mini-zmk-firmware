@@ -191,12 +191,12 @@
 
         Cond_layer_num_only {
             bindings = <&mo 7>;
-            key-positions = <13 14 15 16>;
+            key-positions = <14 15 16>;
         };
 
         OnlyNumToggle2 {
             bindings = <&tog 7>;
-            key-positions = <22 21 20 19>;
+            key-positions = <21 20 19>;
         };
     };
 
