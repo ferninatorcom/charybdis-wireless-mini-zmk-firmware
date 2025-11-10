@@ -61,11 +61,11 @@ layers:
   - {t: ▽, type: trans}
   - RGUI
   - PAGE UP
-  - {t: ▽, type: trans}
+  - PAGE UP
   - RIGHT GUI
   - UP ARROW
   - .
-  - \
+  - PAGE DOWN
   - RIGHT ALT
   - {t: ▽, type: trans}
   - '`'
