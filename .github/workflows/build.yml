@@ -26,7 +26,7 @@ jobs:
 
   build:
     needs: convert-and-store-keymap
-    uses: ./.github/workflows/user_config_build.yaml@v0.2
+    uses: ./.github/workflows/user_config_build.yaml
     # uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
 
   keymap_images:
